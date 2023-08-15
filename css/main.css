@@ -32,6 +32,9 @@ body {
     font-weight: 700;
     line-height: normal;
 }
+.header__item:hover {
+    color: #49B649;
+}
 .header__btn {
     box-sizing: border-box;
     display: flex;
@@ -282,9 +285,38 @@ body {
     line-height: normal;
 }
 .section3 {
+    padding: 343px 103px;
     margin-top: 30px;
     display: flex;
     flex-direction: row;
     gap: 95px;
-    
+}
+.section3__text-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 26px;
+}
+.section3__layout {
+    width: 147px;
+    height: 7px;
+    background: #49B649
+}
+.section3__title {
+    width: 532px;
+    color: #FFF;
+    font-family: Nunito;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.section3__text {
+    width: 601px;
+    color: #FFF;
+    font-family: Nunito;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
 }
