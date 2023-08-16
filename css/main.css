@@ -301,7 +301,7 @@ body {
 .section3__layout {
     width: 147px;
     height: 7px;
-    background: #49B649
+    background: #49B649;
 }
 .section3__title {
     width: 532px;
@@ -331,4 +331,36 @@ body {
     justify-content: center;
     text-align: center;
     gap: 95px;
+}
+.section4__text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 26px;
+}
+.section4__layout {
+    width: 147px;
+    height: 7px;
+    background: #49B649;
+}
+.section4__title {
+    width: 532px;
+    color: #FFF;
+    text-align: right;
+    font-family: Nunito;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.section4__text {
+    color: #FFF;
+    text-align: right;
+    font-family: Nunito;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    width: 523px;
 }
