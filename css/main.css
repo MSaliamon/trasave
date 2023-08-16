@@ -412,3 +412,39 @@ body {
     font-weight: 700;
     line-height: normal;
 }
+.section6 {
+    padding: 192px 82px;
+    width: 1512px;
+    height: 859px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 255px;
+    margin-top: 200px;
+    background: url(../img/background.png);
+}
+.section6__container {
+    margin-top: 180px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 26px;
+}
+.section6__title {
+    width: 582px;
+    color: #FFF;
+    font-family: Nunito;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.section6__text {
+    width: 477px;
+    color: #FFF;
+    font-family: Nunito;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
